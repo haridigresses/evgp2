@@ -95,7 +95,7 @@ npm run check   # typecheck + tests
 npm run build   # emits dist/
 ```
 
-To release, bump `version` in `package.json`, commit, and push a matching tag (`git tag v0.1.2 && git push origin v0.1.2`). GitHub Actions runs the checks and publishes to npm with provenance.
+To release, bump `version` in `package.json`, commit, and push a matching tag (`git tag v0.1.2 && git push origin v0.1.2`). GitHub Actions runs the checks and publishes to npm through trusted publishing, with no stored token. Each release carries an npm provenance statement linking it to the commit and workflow run that built it.
 
 ## License
 

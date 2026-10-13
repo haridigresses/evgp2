@@ -1,6 +1,6 @@
 {
   "name": "evgp2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EV/GP₂: value a company as a multiple on two-year-forward gross profit, with growth that decays.",
   "license": "MIT",
   "author": "haridigresses",
