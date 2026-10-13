@@ -25,10 +25,8 @@ Two years is the horizon we treat as a fair, steady-state valuation. The package
 
 ## Install
 
-Not on npm yet. Install a tagged release from GitHub; it builds on install:
-
 ```
-npm install github:haridigresses/evgp2#v0.1.0
+npm install evgp2
 ```
 
 Node 22.18 or later. No runtime dependencies.
@@ -96,6 +94,8 @@ npm install
 npm run check   # typecheck + tests
 npm run build   # emits dist/
 ```
+
+To release, bump `version` in `package.json`, commit, and push a matching tag (`git tag v0.1.2 && git push origin v0.1.2`). GitHub Actions runs the checks and publishes to npm with provenance.
 
 ## License
 
